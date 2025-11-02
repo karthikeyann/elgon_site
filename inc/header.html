@@ -1,0 +1,102 @@
+<!-- PHP dynamic code start -->
+<!-- 
+<?php 
+$url = $_SERVER['REQUEST_URI'];
+$curr = explode('/',$url);
+$cur = $curr[5];
+?>
+Dynamic functionality: Determines current page from URL to set active navigation state
+-->
+<!-- PHP dynamic code end -->
+
+
+<div id="header">
+
+	<div class="bnr">
+
+		<div class="bnr-tit">
+
+			<p>
+
+				<img src="files/elgon-logo.png" alt="" />
+
+			</p>
+
+		</div>
+
+		<div class="bnr-icn">
+
+			<!--<span class="fa fa-phone">0424 2266037</span>
+
+			<span class="fa fa-mobile">99658-36888, 94435-45909</span>
+
+			<span class="fa fa-inbox"></span>-->
+
+			<a href="#" data-cont="0424 - 2266037"><span class="fa fa-phone"></span></a>
+
+			<a href="#" data-cont=" 99658 - 36888"><span class="fa fa-mobile"></span></a>
+
+			<a href="#" data-cont="info@elgon.in"><span class="fa fa-envelope"></span></a>
+
+			<div class="cboth"></div>
+
+		</div>
+
+		<div class="cboth"></div>
+
+		<div class="box"></div>
+
+	</div>
+
+	<div class="cboth"></div>
+
+	<div class="navi">
+
+		<ul>
+
+			<li>
+
+				<a href="index.html" <!-- PHP dynamic code: <?php if($cur == 'index.php' || $cur == '') { echo "class='active'"; }?> -->><span class="fa fa-home"></span></a>
+
+			</li>
+
+			<li>
+
+				<a href="aboutus.html" <!-- PHP dynamic code: <?php if($cur == 'aboutus.php') { echo "class='active'"; }?> -->>About us</a>
+
+			</li>
+
+			<li>
+
+				<a href="products.html" <!-- PHP dynamic code: <?php if($cur == 'products.php') { echo "class='active'"; }?> -->>Products</a>
+
+			</li>
+
+			<li>
+
+				<a href="gallery.html" <!-- PHP dynamic code: <?php if($cur == 'gallery.php') { echo "class='active'"; }?> -->>Photo Gallery</a>
+
+			</li>
+
+			<li>
+
+				<a href="enquiry.html" <!-- PHP dynamic code: <?php if($cur == 'enquiry.php') { echo "class='active'"; }?> -->>Enquiry</a>
+
+			</li>
+
+			<li>
+
+				<a href="contactus.html" <!-- PHP dynamic code: <?php if($cur == 'contactus.php') { echo "class='active'"; }?> -->>Contact us</a>
+
+			</li>
+
+		</ul>
+
+		<div class="cboth"></div>
+
+	</div>
+
+	<div class="cboth"></div>
+
+</div>
+
